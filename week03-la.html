@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 03 Learning Activities</title>
+    <link rel="stylesheet" href="styles/week03-la.css">
+</head>
+<body>
+    <nav>
+        <a href="#">menu</a>
+    </nav>
+    <header><h1>Week 03 Learning Actvities</h1></header>
+    <main>
+        
+        <div>
+            <section>
+                <h2>Form properties and methods </h2>
+                <form name="my">
+                    <input name="one" value="1">
+                    <input name="two" value="2"><br>
+                    <label><input type="radio" name="age" value="10"> age-1</label> <br>
+                    <label></label><input type="radio" name="age" value="20"> age-2</label><br>
+                    <textarea name="textarea" id="" cols="30" rows="10">TextArea</textarea> <br>
+
+                    <input id="qty" type="number" value="1">
+                    
+                    
+                    <!--
+                    <select id="select">
+                        <option value="1">Rock</option>
+                        <option value="2">Blues</option>
+                        <option value="3">Pink</option>
+                      </select>-->
+                  </form>
+            </section>
+
+            <section>
+                <h2>Form Validation</h2>
+                <form class="form">
+                    <p>
+                        <fieldset>
+                          <legend>Do you have a driver's license?<span aria-label="required">*</span></legend>
+                          <label><input type="radio" required name="driver" id="r1" value="yes"><label for="r1">Yes</label>
+                          <label></label><input type="radio" required name="driver" id="r2" value="no"><label for="r2">No</label>
+                        </fieldset>
+                      </p>
+                      <p>
+                        <label for="n1">How old are you?</label>
+                        <input type="number" min="12" max="120" step="1" id="n1" name="age" pattern="\d+">
+                      </p>
+                      <p>
+                        <label for="t1">What's your favorite fruit?<span aria-label="required">*</span></label>
+                        <input type="text" id="t1" name="fruit" list="l1" required pattern="[Bb]anana|[Cc]herry|[Aa]pple|[Ss]trawberry|[Ll]emon|[Oo]range">
+                        <datalist id="l1">
+                          <option>Banana</option>
+                          <option>Cherry</option>
+                          <option>Apple</option>
+                          <option>Strawberry</option>
+                          <option>Lemon</option>
+                          <option>Orange</option>
+                        </datalist>
+                      </p>
+                      <p>
+                        <label for="t2">What's your email address?</label>
+                        <input type="email" id="t2" name="email">
+                      </p>
+                      <p>
+                        <label for="t3">Leave a short message</label>
+                        <textarea id="t3" name="msg" maxlength="140" rows="5"></textarea>
+                      </p>
+                      <p>
+                        <button>Submit</button>
+                      </p>
+                </form>
+            </section>
+
+
+
+            <section>
+                <h2>Prevent Default Method</h2>
+                <a class="wes" href="https://wesbos.com">Wes Bos</a>
+                <form name="signup" action="submit">
+                    <label>Name:<input type="text" id="name" name="name" value="wes bos"></label>
+                    <label>Email:<input type="email" id="email" name="email" value="waheed@netlink.com.pk"></label>
+                    <label ><input type="submit" value="submit"></label> <br>
+                    <label><input required type="checkbox" id="agree" name="agree"> click on check box if you agree with terms?</label>
+                </form>
+            </section>
+            <section>
+                <h2>Using built-in form validation </h2>
+                <form>
+                    <label for="choose">Would you prefer a banana or cherry?</label>
+                    <input id="choose" name="i-like" required pattern="[Bb]anana|[Cc]herry"/>
+                    <button>Submit</button>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>WDD-330 | week03</footer>
+ <script src="scripts/week03-la.js"></script>   
+</body>
+</html>

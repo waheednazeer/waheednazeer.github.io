@@ -1,0 +1,76 @@
+body{
+    margin: 0 0;
+}
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: aqua;
+    padding: 20px;
+   
+}
+nav a{
+    text-decoration: none;
+}
+header{
+    background: black;
+    text-align: center;
+}
+header h1{
+    color: white;
+}
+main{
+    padding-left: 20px;
+}
+
+#choose:invalid {
+    border: 4px dashed red;
+  }
+  
+  #choose:invalid:required {
+    background-image: linear-gradient(to right, pink, lightgreen);
+  }
+
+  #choose:valid {
+    border: 4px solid yellowgreen;
+  }
+  section h2{
+    color:blueviolet;
+  }
+
+/* form validation style*/
+.form {
+    font: 1em sans-serif;
+    max-width: 320px;
+  }
+  p > label {
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea,
+  fieldset {
+    
+    border: 1px solid #333;
+    box-sizing: border-box;
+  }
+  
+  input:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
+  
+  input:focus:invalid {
+    box-shadow: none;
+  }
+
+/*end of form validatation style*/
+
+
+
+  footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+  }

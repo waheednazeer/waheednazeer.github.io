@@ -32,6 +32,11 @@ body {
   header h1{
     padding-left: 15px;
   }
+  h2 {
+    font-family: Verdana;
+    font-size: large;
+    color: greenyellow;
+  }
   h3 {
     font-family: Verdana;
     font-size: large;

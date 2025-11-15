@@ -32,7 +32,12 @@ body {
   header h1{
     padding-left: 15px;
   }
-  
+  h3 {
+    font-family: Verdana;
+    font-size: large;
+    text-align: left;
+    color: blue;
+  }
 
   main{
     height: auto;

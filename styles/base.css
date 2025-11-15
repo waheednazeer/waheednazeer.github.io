@@ -35,28 +35,38 @@ body {
   
 
   main{
-    height: 50vh;
+    height: 55vh;
     margin: 15px 15px;
   }
   .portfolio-sections {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .sp-portfolio, .pr-portfolio {
+    background-color: rgb(204, 204, 255);
     border: 2px solid black;
-    height: 200px;
-    width: 400px;
-    display: inline-block;
-    margin: 10px;
-    padding: 10px;
+    border-radius: 10px;
+    width: 45%;
+    height: 300px;
     text-align: center;
-    font-family: 'Lato', sans-serif, serif;
-    font-size: 20px; 
+    padding-top: 20px;
+    text-decoration: none;
+    
+  }
+  a {
+    text-decoration: none;
+    color: black;
   }
  
   
 
  /*--------------Footer----------------------*/ 
   footer {
-    background: black;
-    color: white;
-    margin-top: 35px;
+    background-color: rgb(131, 131, 216);
+    margin-top: 2.5rem;
     text-align: center;
     padding: 5px;
     font-family: 'Lato', sans-serif, serif;

@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: right;
+    justify-content: left;
     gap: 3rem;
     background: black;
     height: 60px;
@@ -55,6 +55,15 @@ body {
     padding-top: 20px;
     text-decoration: none;
     
+  }
+  .sp {
+    background-color: rgb(204, 204, 255);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    padding: 10px;
   }
   a {
     text-decoration: none;

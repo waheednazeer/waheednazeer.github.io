@@ -11,7 +11,7 @@ body {
 
   nav{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
     justify-content: left;
     gap: 3rem;

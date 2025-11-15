@@ -38,6 +38,17 @@ body {
     height: 50vh;
     margin: 15px 15px;
   }
+  .sp-portfolio, .pr-portfolio {
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Lato', sans-serif, serif;
+    font-size: 20px; 
+  }
  
   
 

@@ -61,9 +61,7 @@ body {
     height: auto;
     
   }
-  .main-sp {
-    margin: 15px 15px;
-  }
+ 
   .portfolio-sections {
     display: flex;
     flex-direction: row;

@@ -183,7 +183,7 @@ body {
   }
 
   /*--------------Media Queries----------------------*/
-  @media (max-width: 668px) {
+  @media (max-width: 700px) {
     .portfolio-sections {
       flex-direction: column;
       width: auto;

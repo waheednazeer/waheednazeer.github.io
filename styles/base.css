@@ -11,6 +11,8 @@ body {
   }
 
   nav{
+    position: fixed;
+    top: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -18,8 +20,8 @@ body {
     gap: 3rem;
     background: black;
     height: 60px;
-    width: auto; 
-  }
+    width: 100%; 
+      }
   nav a {
     color: white;
     font-size: medium;
@@ -33,8 +35,8 @@ body {
     align-items: center;
     justify-content: left;
     background-color: rgb(131, 131, 216);
-    gap: 3rem; 
-    height: 120px
+    margin-top: 60px;
+    height: 80px;
   }
   header h1{
     padding-left: 15px;
@@ -133,6 +135,15 @@ body {
     margin-top: 20px;
     margin: 15px 15px;
   }
+  .week5-div{
+    margin: 15px 15px;
+    background-color: black;
+  }
+  .week5-div h3{
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
  .task-2a, .task-2b{
   border: 1.5px solid black;
   border-radius: 10px;
@@ -183,13 +194,17 @@ body {
   }
 
   /*--------------Media Queries----------------------*/
-  @media (max-width: 700px) {
+  @media only screen and (min-width: 350px) and (max-width: 700px) {
+      nav a {
+    font-size: small;
+    gap: 1rem;
+  }
     .portfolio-sections {
       flex-direction: column;
-      width: auto;
+      width: 100%;
     }
     .sp-portfolio, .pr-portfolio {
-    width: 100%;
+    width: auto;
     height: 100px;
     }
      .gp, .week4, .week5, .pro-w4-tasks, .projects {
